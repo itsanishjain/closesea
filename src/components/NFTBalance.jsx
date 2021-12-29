@@ -208,6 +208,8 @@ function NFTBalance() {
           ))}
       </div>
 
+     
+
       <Modal
         title={`List ${nftToSend?.name} #${nftToSend?.token_id} For Sale`}
         visible={visible}
@@ -226,7 +228,9 @@ function NFTBalance() {
           </Button>
         ]}
       >
+       
         <Spin spinning={loading}>
+          
           <img
             src={`${nftToSend?.image}`}
             style={{
