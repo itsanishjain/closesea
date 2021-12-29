@@ -113,7 +113,7 @@ const App = ({ isServerInfo }) => {
         </div>
       </Router>
       <Footer style={{ textAlign: "center" }}>
-        <Text style={{ display: "block" }}>
+        {/* <Text style={{ display: "block" }}>
           ⭐️ Please star this{" "}
           <a
             href="https://github.com/ethereum-boilerplate/ethereum-boilerplate/"
@@ -123,8 +123,8 @@ const App = ({ isServerInfo }) => {
             boilerplate
           </a>
           , every star makes us very happy!
-        </Text>
-
+        </Text> */}
+{/* 
         <Text style={{ display: "block" }}>
           🙋 You have questions? Ask them on the {""}
           <a
@@ -134,9 +134,9 @@ const App = ({ isServerInfo }) => {
           >
             Moralis forum
           </a>
-        </Text>
+        </Text> */}
 
-        <Text style={{ display: "block" }}>
+        {/* <Text style={{ display: "block" }}>
           📖 Read more about{" "}
           <a
             target="_blank"
@@ -145,7 +145,7 @@ const App = ({ isServerInfo }) => {
           >
             Moralis
           </a>
-        </Text>
+        </Text> */}
       </Footer>
     </Layout>
   );
